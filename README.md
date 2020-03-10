@@ -9,6 +9,7 @@ pip install -r requirements.txt
 # 使い方
 
 1. suicaの履歴が記入されたtsvの用意
+
    suicaの履歴のtsvは以下のようなフォーマットで与える。
 
    > 2020/1/4	入	御茶ノ水	出	新宿　　	"¥5,454"	-168
@@ -27,6 +28,7 @@ pip install -r requirements.txt
    
 
 2. suicaの履歴が記入されたtsvから交通費の情報を抽出し、freeeで読み込めるxlsxに変換
+
    例えば次のようにして実行する。
 
 	```bash
